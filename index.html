@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firefly OS</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Custom CSS -->
+    <style>
+        /* Custom styles */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+        }
+
+        /* Example animation class */
+        .animate-in-left {
+            animation: animateLeft 1s ease-out;
+        }
+
+        @keyframes animateLeft {
+            0% {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+                        <!-- Logo -->
+                        <a class="navbar-brand" href="#">
+                            <img src="image.png" alt="Firefly OS Logo" height="40">
+                        </a>            
+            <a class="navbar-brand" href="#">Firefly OS</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#download">Download</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Animation -->
+    <section id="hero" class="py-5 text-center text-white animate__animated animate__fadeIn">
+        <div class="container">
+            <h1 class="display-4 mb-4 animate__animated animate__bounceInDown">Welcome to Firefly OS</h1>
+            <p class="lead mb-4 animate__animated animate__fadeIn">The Future of Modern Computing</p>
+            
+        </div>
+    </section>
+
+    <!-- Features Section with Animation -->
+    <section id="features" class="py-5 animate__animated animate__fadeInUp">
+        <div class="container">
+            <h2 class="text-center mb-5">Key Features</h2>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100 animate__animated animate__fadeInLeft">
+                        <div class="card-body">
+                            <h5 class="card-title">Customizable Interface</h5>
+                            <p class="card-text">Personalize your Firefly OS experience with 100's of themes!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100 animate__animated animate__fadeInUp">
+                        <div class="card-body">
+                            <h5 class="card-title">Speed and Security</h5>
+                            <p class="card-text">Enjoy a fast and secure operating system.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100 animate__animated animate__fadeInRight">
+                        <div class="card-body">
+                            <h5 class="card-title">Developer Friendly</h5>
+                            <p class="card-text">Built with developers in mind.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section with Animation -->
+    <section id="download" class="py-5 bg-light animate__animated animate__fadeIn">
+        <div class="container text-center">
+            <h2 class="animate__animated animate__fadeInDown">Download Firefly OS</h2>
+            <p class="lead animate__animated animate__fadeInUp">FireFly isnt available to the public yet. You can request a BETA image from our Discord!</p>
+
+        </div>
+    </section>
+
+    <!-- About Section with Animation -->
+    <section id="about" class="py-5 animate__animated animate__fadeIn">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="animate__animated animate__fadeInLeft">About Firefly OS</h2>
+                    <p class="animate__animated animate__fadeInLeft">Firefly OS is a revolutionary operating system
+                        designed to enhance your digital experience. It offers unparalleled customization, speed, and
+                        security, making it the ideal choice for both casual users and developers alike.</p>
+                    <p class="animate__animated animate__fadeInLeft">Developed with cutting-edge technology and a
+                        focus on user-friendly design, Firefly OS aims for a familliar interface, same compatibility and a continously developing system.</p>
+                </div>
+                <div class="col-lg-6">
+                    <!-- Placeholder for an image or additional content -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Firefly OS (C). All rights reserved. The FireFly icon is registered to FireFly Development Committee</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <!-- Animate.css -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.js"></script>
+
+</body>
+
+</html>
